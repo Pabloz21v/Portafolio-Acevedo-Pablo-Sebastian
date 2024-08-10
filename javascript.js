@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const buttons = document.querySelectorAll('button[data-tech]');
     const modalTitle = document.getElementById('techModalLabel');
-    // const modalImg = document.getElementById('techModalImg');
-    
     const projectsList = document.getElementById('projectsList');
     const techModal = new bootstrap.Modal(document.getElementById('techModal'));
   
@@ -24,13 +22,29 @@ document.addEventListener('DOMContentLoaded', function () {
             projectsList.innerHTML = proyectosFiltrados.length > 0
               ? proyectosFiltrados.map(proyecto => `
                 <li>
-                  <h5>${proyecto.nombre}</h5>
-                  <p><strong>Tecnologías:</strong> ${proyecto.tecnologias.join(', ')}</p>
-                  <p><a href="${proyecto.link_youtube_esp}" target="_blank">Ver Video (Español)</a></p>
-                  <p><a href="${proyecto.link_youtube_eng}" target="_blank">Ver Video (Inglés)</a></p>
-                  <p><a href="${proyecto.link_github}" target="_blank">Ver en GitHub</a></p>
-                  <p><a href="${proyecto.link_page}" target="_blank">Ver Proyecto</a></p>
-                  <img src="${proyecto.imagen}" alt="${proyecto.nombre}" class="img-fluid">
+                  <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4 my-auto d-flex justify-content-center" style="">
+                        <img src="${proyecto.imagen}" alt="${proyecto.nombre}" class="img-fluid">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">${proyecto.nombre}</h5>
+                          <p class="card-text"><strong>Tecnologías:</strong> ${proyecto.tecnologias.join(', ')}</p>
+                          <p class="card-text">${proyecto.descripcion}</p>
+                          <p class="card-text"><a href="${proyecto.link_youtube_esp}" target="_blank">Ver Video (Español)</a></p>
+                          <p class="card-text"><a href="${proyecto.link_youtube_eng}" target="_blank">Ver Video (Inglés)</a></p>
+                          <p class="card-text"><a href="${proyecto.link_github}" target="_blank">Ver en GitHub</a></p>
+                          <p class="card-text"><a href="${proyecto.link_page}" target="_blank">Ver Proyecto</a></p>
+                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <h5></h5>
+                  <p></p>
+                  
+                  
                 </li>
               `).join('')
               : `<p>No hay proyectos con ${tech} aún.</p>`;
