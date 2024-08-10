@@ -1,0 +1,41 @@
+.menu {
+    background-color: var(--2-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--padding);
+ }
+ .menu__yo{
+    font-size: var(--titulo);
+     margin: 1rem 0;
+ }
+ 
+ .menu__elementos{
+     margin: auto 0;
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ .menu__items{
+     margin: 0.5rem;
+     
+ }
+ 
+@media only screen and (max-width: 768px){
+    .menu__yo{
+        font-size: 1.2rem;
+    }
+    .menu__elementos{
+        display: none;
+    }
+    
+}
+@media only screen and (max-width: 425px){
+    .menu__yo{
+        font-size: 1rem;
+    }
+    .menu__yo{
+        
+         margin: 0.5rem 0;
+     }
+}

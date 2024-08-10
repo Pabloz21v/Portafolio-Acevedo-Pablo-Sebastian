@@ -1,0 +1,57 @@
+button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-user-select: none; /* for button */
+    -webkit-appearance: button; /* for input */
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.skills_and_hobbies{
+    background-color: var(--3-color);
+    padding: var(--padding);
+}
+
+.skills_and_hobbies_titulos{
+    font-size: var(--titulo);
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.skills_and_hobbies_lista{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    gap: 2rem 6rem;
+}
+
+.skills_and_hobbies_items{
+    background-color: #ffffff;
+    width: 7rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.skills_and_hobbies__img{
+    margin: auto;
+    width: 5rem;
+    height: 5rem;
+}
+
+@media only screen and (max-width: 768px){
+    .skills_and_hobbies_lista{
+        gap: 1rem 2rem;
+    }
+}
+
+

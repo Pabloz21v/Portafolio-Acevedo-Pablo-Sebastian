@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Developer Full Stack Acevedo Pablo Sebastian</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/menu.css" />
+    <link rel="stylesheet" href="style/intro.css" />
+    <link rel="stylesheet" href="style/sobre__mi.css" />
+    <link rel="stylesheet" href="style/skills_and_hobbies.css" />
+    <link rel="stylesheet" href="style/formacion.css" />
+    <link rel="stylesheet" href="style/proyectos.css" />
+    <link rel="stylesheet" href="style/contacto.css" />
+    <link rel="stylesheet" href="style/curriculum.css" />
+    <link rel="stylesheet" href="style/rodapie.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body class="bg-dark">
+    <header>
+      <!-- <div class="menu">
+            <h1 class="menu__yo"> <img src="img/stars.png" alt=""> Acevedo, Pablo Sebastian.</h1>
+            <ul class="menu__elementos">
+                <li class="menu__items"> <a href="#sobre_mi">Sobre mi</a> </li>
+                <li class="menu__items"> <a href="#skills">Skills</a> </li>
+                <li class="menu__items"> <a href="#hobbies">Hobbies</a> </li>
+                <li class="menu__items"> <a href="#formacion">Formacion</a> </li>
+                <li class="menu__items"> <a href="#proyectos">Proyectos</a> </li>
+                <li class="menu__items"> <a href="#contacto">Contacto</a></li>
+            </ul>
+        </div> -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark container"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  type="button"
+                  data-bs-target="#carouselPrincipal"
+                  data-bs-slide-to="0"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  type="button"
+                  data-bs-target="#carouselPrincipal"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  >Sobre mi</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  type="button"
+                  data-bs-target="#carouselPrincipal"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                  >Proyectos</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  type="button"
+                  data-bs-target="#carouselPrincipal"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                  >Skills</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  type="button"
+                  data-bs-target="#carouselPrincipal"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                  >Formacion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  type="button"
+                  data-bs-target="#carouselPrincipal"
+                  data-bs-slide-to="5"
+                  aria-label="Slide 6"
+                  >Contacto</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="carouselPrincipal" class="carousel slide">
+        <div class="carousel-indicators" hidden>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="4"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselPrincipal"
+            data-bs-slide-to="5"
+            aria-label="Slide 6"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="intro d-block w-100">
+              <div class="intro__textos">
+                <h3 class="intro__titulo">
+                  Hola mi nombre es Pablo Sebastian Acevedo, Argentino de 34
+                  años y soy Desarrollador Full Stack.
+                </h3>
+                <h4 class="intro__presentacion">
+                  Actualmente estoy trabajando como free lancer, en un proyecto
+                  usando Laravel-Livewire
+                </h4>
+                <ul class="intro__elementos">
+                  <li class="intro__items">
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/acevedo-pablo/"
+                      >Linkedin
+                      <img src="img/flecha.png" alt="img en forma de flecha"
+                    /></a>
+                  </li>
+                  <li class="intro__items">
+                    <a target="_blank" href="https://github.com/Pabloz21v"
+                      >Github
+                      <img src="img/flecha.png" alt="img en forma de flecha"
+                    /></a>
+                  </li>
+                  <li class="intro__items">
+                    <a target="_blank" href="pdf/CV Pablo Acevedo.pdf"
+                      >Curriculum<img
+                        src="img/flecha.png"
+                        alt="img en forma de flecha"
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="intro__foto_perfil">
+                <img
+                  class="intro__foto_img"
+                  src="img/foto_perfil.jpg"
+                  alt="foto perfil"
+                  srcset=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="sobre_mi d-block w-100" id="sobre_mi">
+              <h3 class="sobre_mi__titulo">Sobre mi</h3>
+              <p class="sobre_mi__texto">
+                Soy Lic. en Tecnología de los Alimentos y actualmente me
+                encuentro en un cambio de rumbo profesional hacia la
+                programación, tema que siempre me gustó. Logré ser participante
+                del proyecto Oracle ONE en Alura Latam donde aprendí diferentes
+                lenguajes de programación (JavaScript, Java, Python), como
+                también la elaboración de proyectos (challenge) propuestos por
+                ellos, en paralelo fui estudiando algunos framework de los
+                lenguajes que me iban enseñando (React, Spring y Django), a su
+                vez por hobbie estudio diferentes idiomas y amplio mis
+                conocimientos de programación gracias a las enseñanzas de Oracle
+                One / Alura. Todo con el fin de ser un desarrollador web full
+                stack. Actualmente trabajo de FreeLancer en un proyecto con base
+                en Laravel, Livewire y Vue tecnologías que no había estudiado,
+                pero gracias al ver tantos lenguajes y framework me logre
+                adaptar rápidamente a lo requerido para poder desempeñar mi
+                trabajo.
+              </p>
+              <!-- <img class="sobre_mi__imagen" src="img/firma.png" alt="mi firma"> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="proyectos d-block w-100" id="proyectos">
+              <ul class="skills_and_hobbies_lista">
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Html 5"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-html-5-48.png"
+                      alt="logo html 5"
+                    />Html 5
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="CSS 3"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-css3-48.png"
+                      alt="logo css 3"
+                    />CSS 3
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Javascript"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-javascript-48.png"
+                      alt="logo Javascript"
+                    />Javascript
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="React"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-react-native-48.png"
+                      alt="logo React"
+                    />React
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Vue"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-vue-js-48.png"
+                      alt="logo Vue"
+                    />Vue
+                  </button>
+                </li>
+                <!-- <li class="skills_and_hobbies_items">
+                  <button type="button"
+                  data-tech="Node Js"
+                  data-bs-toggle="modal"
+                  data-bs-target="#techModal">
+
+                  <img
+                    class="skills_and_hobbies__img"
+                    src="img/icons8-node-js-48.png"
+                    alt="logo Node Js"
+                  />Node Js
+                  </button>
+                </li> -->
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="MySQL"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-mysql-logo-48.png"
+                      alt="logo MySQL"
+                    />MySQL
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Java"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-java-48.png"
+                      alt="logo Java"
+                    />Java
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Spring"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-spring-boot-48.png"
+                      alt="logo Spring"
+                    />Spring
+                  </button>
+                </li>
+                <!-- <li class="skills_and_hobbies_items">
+                  <img
+                    class="skills_and_hobbies__img"
+                    src="img/icons8-python-48.png"
+                    alt="logo Python"
+                  />Python
+                </li> -->
+                <!-- <li class="skills_and_hobbies_items">
+                  <img
+                    class="skills_and_hobbies__img"
+                    src="img/icons8-django-48.png"
+                    alt="logo Django"
+                  />Django
+                </li> -->
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="PHP"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-php-logo-50.png"
+                      alt="logo PHP"
+                    />PHP
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Laravel"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-laravel-48.png"
+                      alt="logo Laravel"
+                    />Laravel
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Livewire"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/livewire.png"
+                      alt="logo Livewire"
+                    />Livewire
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Bootstrap"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-bootstrap-48.png"
+                      alt="logo Bootstrap"
+                    />Bootstrap
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Tailwind CSS"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-tailwindcss-48.png"
+                      alt="logo Tailwind"
+                    />Tailwind
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Inertia"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/inertiajs.jpg"
+                      alt="logo Inertiajs"
+                    />Inertia
+                  </button>
+                </li>
+                <li class="skills_and_hobbies_items">
+                  <button
+                    type="button"
+                    data-tech="Flowbite"
+                    data-bs-toggle="modal"
+                    data-bs-target="#techModal"
+                  >
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/flowbite.jpeg"
+                      alt="logo Flowbite"
+                    />Flowbite
+                  </button>
+                </li>
+              </ul>
+              <!-- <h3 class="proyectos__titulos">Experiencia profesional</h3>
+              <ul>
+                <li class="proyectos__img_y_datos">
+                  <div class="proyectos__datos">
+                    <h4 class="protectos__titulo_reto">
+                      Proyecto Laravel-Livewire
+                    </h4>
+                    <h5 class="protectos__reto">
+                      Proyecto en el que contribuyo actualmente de freelancer.
+                      <br />
+                      Programado con Laravel, Livewire, Tailwind, Bootstrap
+                      principalmente.
+                    </h5>
+                    <div>
+                      <button class="proyectos__btns">
+                        <a
+                          class="proyectos__btns"
+                          target="_blank"
+                          href="https://github.com/Pabloz21v/admin/tree/UserList"
+                          >Repositorio</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                  <div class="proyectos__caja_imagen">
+                    <img
+                      class="proyectos__imagen"
+                      src="img/proyecto freelancer.jpeg"
+                      alt="img feeelancer"
+                    />
+                  </div>
+                </li>
+                <li class="proyectos__img_y_datos">
+                  <div class="proyectos__datos">
+                    <h4 class="protectos__titulo_reto">
+                      Encriptador de texto - Challenge Oracle / Alura
+                    </h4>
+                    <h5 class="protectos__reto">
+                      Codifica textos que puedes enviar a tus amigos para que
+                      los descifren con el mismo programa, manteniendo una
+                      charla secreta solo entre los que conozcan esta web.
+                      <br />
+                      Programado con Js, Html, Css.
+                    </h5>
+                    <div>
+                      <button class="proyectos__btns">
+                        <a
+                          class="proyectos__btns"
+                          target="_blank"
+                          href="https://github.com/Pabloz21v/challenge-1-encriptador.github.io"
+                          >Repositorio</a
+                        >
+                      </button>
+                      <button class="proyectos__btns">
+                        <a
+                          class="proyectos__btns"
+                          target="_blank"
+                          href="https://pabloz21v.github.io/challenge-1-encriptador.github.io/"
+                          >Ver demo</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                  <div class="proyectos__caja_imagen">
+                    <img
+                      class="proyectos__imagen"
+                      src="img/challenge-1.png"
+                      alt="img encriptador"
+                    />
+                  </div>
+                </li>
+                <li class="proyectos__img_y_datos">
+                  <div class="proyectos__datos">
+                    <h4 class="protectos__titulo_reto">
+                      Juego del Ahorcado - Challenge Oracle / Alura
+                    </h4>
+                    <h5 class="protectos__reto">
+                      Juego clásico del ahorcado, tienes que adivinar la palabra
+                      o ingresar una palabra nueva para que tus amigos la
+                      descifren. Tienes 10 vidas para hacerlo. <br />
+                      Programado con Js, Html, Css.
+                    </h5>
+                    <div>
+                      <button class="proyectos__btns">
+                        <a
+                          class="proyectos__btns"
+                          target="_blank"
+                          href="https://github.com/Pabloz21v/AhorcadoPSA"
+                          >Repositorio</a
+                        >
+                      </button>
+                      <button class="proyectos__btns">
+                        <a
+                          class="proyectos__btns"
+                          target="_blank"
+                          href="https://pabloz21v.github.io/AhorcadoPSA/index.html"
+                          >Ver demo</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                  <div class="proyectos__caja_imagen">
+                    <img
+                      class="proyectos__imagen"
+                      src="img/challenge-2.png"
+                      alt="img juego del ahorcado"
+                    />
+                  </div>
+                </li>
+                <li class="proyectos__img_y_datos">
+                  <div class="proyectos__datos">
+                    <h4 class="protectos__titulo_reto">
+                      E-commence - Challenge Oracle / Alura
+                    </h4>
+                    <h5 class="protectos__reto">E-commence en desarrollo</h5>
+                    <div>
+                      <button class="proyectos__btns">
+                        <a class="proyectos__btns" target="_blank" href="#"
+                          >Repositorio</a
+                        >
+                      </button>
+                      <button class="proyectos__btns">
+                        <a class="proyectos__btns" target="_blank" href="#"
+                          >Ver demo</a
+                        >
+                      </button>
+                    </div>
+                  </div>
+                  <div class="proyectos__caja_imagen">
+                    <img
+                      class="proyectos__imagen"
+                      src="img/soon.png"
+                      alt="img E-commence"
+                    />
+                  </div>
+                </li>
+              </ul> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="skills_and_hobbies d-block w-100">
+              <div>
+                <h3 class="skills_and_hobbies_titulos" id="skills"></h3>
+              </div>
+              <div>
+                <h3 class="skills_and_hobbies_titulos">Soft Skills</h3>
+                <ul class="skills_and_hobbies_lista">
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-leadership-64.png"
+                      alt="logo liderar"
+                    />Liderazgo
+                  </li>
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-communication-48.png"
+                      alt="logo chat"
+                    />Comunicacíon
+                  </li>
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-team-work-58.png"
+                      alt="logo team"
+                    />Trabajo en equipo
+                  </li>
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-adaptable-64.png"
+                      alt="logo team"
+                    />Adaptabilidad
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="skills_and_hobbies_titulos" id="hobbies">Hobbies</h3>
+                <ul class="skills_and_hobbies_lista">
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-language-64.png"
+                      alt="logo idiomas"
+                    />Aprender Idiomas
+                  </li>
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-physical-activity-64.png"
+                      alt="logo ejercicio"
+                    />Ejercicio fisico
+                  </li>
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-friends-64.png"
+                      alt="logo pasar tiempo"
+                    />Pasar tiempo con amigos
+                  </li>
+                  <li class="skills_and_hobbies_items">
+                    <img
+                      class="skills_and_hobbies__img"
+                      src="img/icons8-video-game-49.png"
+                      alt="logo video juegos"
+                    />Juegar video juegos
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="formacion d-block w-100" id="formacion">
+              <h3 class="formacion_titulo">Formación académica</h3>
+              <ul class="formacion_lista">
+                <li class="formacion_items">
+                  <div class="formacion__marco_de_img">
+                    <img
+                      class="formacion_img"
+                      src="img/Lnlearning.png"
+                      alt="linkedin learning"
+                    />
+                  </div>
+
+                  <h3>MySQL</h3>
+                  <p>2022 - Linkedin learning</p>
+                </li>
+                <!-- <li class="formacion_items">
+                                <div class="formacion__marco_de_img">
+                                    <img class="formacion_img" src="img/quality-control.png" alt="imagen de QA IT">
+                                </div>
+                                <h3>QA IT</h3>
+                                <p>en curso</p>
+                            </li> -->
+                <li class="formacion_items">
+                  <div class="formacion__marco_de_img">
+                    <img
+                      class="formacion_img"
+                      src="img/alura.png"
+                      alt="logo alura"
+                    />
+                  </div>
+                  <h3>Dev Web Full Stack</h3>
+                  <p>2022 - Alura</p>
+                </li>
+                <li class="formacion_items">
+                  <div class="formacion__marco_de_img">
+                    <img
+                      class="formacion_img"
+                      src="img/UNCPBA.png"
+                      alt="logo UNCPBA"
+                    />
+                  </div>
+                  <h3>Lic. en Tecnología de los Alimentos</h3>
+                  <p>2021 - UNCPBA</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="contacto d-block w-100" id="contacto">
+              <!-- <div class="contacto__imagen">
+                            <img class="contacto__imagen_img "src="img/telefono.png" alt="img de comunicacion">
+                        </div>
+                        <form class="contacto__items" id="btn-submit">
+                            <h3 class="contacto__contacto">Contacto</h3>
+                            <p class="contacto__texto">¿Quieres contactarme?<br>
+                                Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                            <div class="contacto__bloque_inputs">
+                                <label class="contacto__label" for="Nombre">Nombre</label>
+                                <input class="contacto__inputs" id="input_nombre" type="text" name="Nombre"
+                                    placeholder="Nombre">
+                                <span class="contacto__errores" id="error_nombre"></span>
+                            </div>
+            
+                            <div class="contacto__bloque_inputs">
+                                <label class="contacto__label" for="E-mail">E-mail</label>
+                                <input class="contacto__inputs" id="input_email" type="text" name="E-mail"
+                                    placeholder="Hola@email.com">
+                                <span class="contacto__errores" id="error_email"></span>
+                            </div>
+            
+                            <div class="contacto__bloque_inputs">
+                                <label class="contacto__label" for="Asunto">Asunto</label>
+                                <input class="contacto__inputs" id="input_asunto" type="text" name="Asunto"
+                                    placeholder="Asunto">
+                                <span class="contacto__errores" id="error_asunto"></span>
+                            </div>
+            
+                            <div class="contacto__bloque_inputs">
+                                <label class="contacto__label" for="Mensaje">Mensaje</label>
+                                <textarea class="contacto__inputs" id="input_mensaje" name="Mensaje" cols="30" rows="10"
+                                    placeholder="Mensaje"></textarea>
+                                <span class="contacto__errores" id="error_mensaje"></span>
+                            </div>
+            
+                            <button class="contacto__btn" type="submit">Enviar mensaje</button>
+                        </form> -->
+              <div class="contacto__label">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/acevedo-pablo/"
+                  >Linkedin
+                  <img src="img/flecha.png" alt="img en forma de flecha"
+                /></a>
+              </div>
+              <div class="contacto__label">
+                <a target="_blank" href="https://github.com/Pabloz21v"
+                  >Github
+                  <img src="img/flecha.png" alt="img en forma de flecha"
+                /></a>
+              </div>
+              <div class="curriculum">
+                <h3 class="curriculum__texto">
+                  Aquí dejo a tu disposición mi curriculum en formato PDF
+                </h3>
+                <button class="curriculum__btn">
+                  <a
+                    class="curriculum__btn"
+                    target="_blank"
+                    href="pdf/CV Pablo Acevedo.pdf"
+                    >Curriculum</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          hidden
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselPrincipal"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          hidden
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselPrincipal"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="techModal"
+      tabindex="-1"
+      aria-labelledby="techModalLabel"
+      aria-hidden="true"
+      data-bs-backdrop="boolean"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="techModalLabel">Modal title</h1>
+            <!-- <h1 class="modal-title fs-5" id="techModalImg">Modal Img</h1> -->
+
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul id="projectsList"></ul>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <footer class="rodapie">
+      <a target="_blank" href="https://icons8.com/"
+        >Imagenes e iconos extraidos de icons8.com
+      </a>
+      <h6>Desarrollado por Acevedo, Pablo Sebastian.</h6>
+      <p>2022-2023</p>
+    </footer> -->
+    <!-- <script src="formulario.js"></script> -->
+    <script src="javascript.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

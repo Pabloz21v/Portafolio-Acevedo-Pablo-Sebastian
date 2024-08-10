@@ -1,0 +1,23 @@
+{
+    "proyectos": [
+        {
+        "nombre": "Sistema de Gestión de Menús",
+        "tecnologias": ["Laravel", "Vue", "Inertia"],
+        "link_youtube_esp": "https://www.youtube.com/watch?v=esp_link",
+        "link_youtube_eng": "https://www.youtube.com/watch?v=eng_link",
+        "link_github": "https://github.com/tu_usuario/sistema-gestion-menus",
+        "link_page": "https://tu_usuario.github.io/sistema-gestion-menus",
+        "imagen": "https://tu_servidor.com/imagenes/sistema-gestion-menus.png"
+        },
+        {
+        "nombre": "E-commerce con Inertia.js",
+        "tecnologias": ["Laravel", "Vue", "Inertia", "Tailwind CSS"],
+        "link_youtube_esp": "https://www.youtube.com/watch?v=esp_link_ecommerce",
+        "link_youtube_eng": "https://www.youtube.com/watch?v=eng_link_ecommerce",
+        "link_github": "https://github.com/tu_usuario/ecommerce-inertia",
+        "link_page": "https://tu_usuario.github.io/ecommerce-inertia",
+        "imagen": "https://tu_servidor.com/imagenes/ecommerce-inertia.png"
+        }
+       
+    ]
+}

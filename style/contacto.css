@@ -1,0 +1,68 @@
+.contacto{
+    background-color: var(--2-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: var(--padding);
+    padding: 1rem auto;
+}
+.contacto__imagen{
+    margin: 1rem;
+}
+.contacto__imagen_img{
+    width: 21rem;
+}
+.contacto__items{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.contacto__contacto{
+    font-size: var(--titulo);
+    margin: 0.5rem;
+}
+.contacto__texto{
+    margin: 0.5rem;
+}
+.contacto__bloque_inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem 0;
+}
+.contacto__label{
+    margin: 0 0.6rem ;
+}
+ .contacto__inputs{
+    padding: 0.2rem;
+    
+    margin: 0.2rem 0.5rem;
+}
+.contacto__errores{
+    color: #cf0202;
+    margin: 0 auto;
+
+}
+
+.contacto__btn{
+    background-color: var(--btn-color-backg);
+    color: var(--btn-color-font);
+    margin: 0.5rem;
+    font-size: 1.1rem;
+    width: 10rem;
+}
+@media only screen and (max-width: 768px){
+
+    .contacto__inputs{
+        width: 80vw;
+    }
+    
+    .contacto__imagen{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    .contacto{
+        padding: 0;
+    }
+}

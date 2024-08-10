@@ -1,0 +1,45 @@
+:root{
+    --1-color: #132BA8;
+    --2-color: #B2D5FF;
+    --3-color: #E8E7F6;
+    
+    --5-color: #6BA6F5;
+    --color-letras: 000566;
+    
+    --btn-color-backg: #1D63AD;
+    --btn-color-font: #EEEEEE;
+    --padding: 1rem 7rem;
+    --titulo: 2rem;
+    --letra-cuerpo: 18px;
+}
+
+body{
+    color: var(--color-letras);
+    font-size: var(--letra-cuerpo);
+    
+}
+
+@media only screen and (max-width: 768px){
+    
+    :root{
+        --padding: 1rem 2rem;
+        --titulo: 1.5rem;
+        --letra-cuerpo: 14px;
+    }
+    body{ 
+        font-size: var(--letra-cuerpo); 
+    }
+}
+@media only screen and (max-width: 425px){
+    :root{
+        --padding: 1rem 1rem;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+.rodapie{
+    background-color: var(--2-color);
+     
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding);
+    
+}
+.rodapie>h6, .rodapie>p , .rodapie>a{
+    display: flex;
+    justify-content: center;
+}

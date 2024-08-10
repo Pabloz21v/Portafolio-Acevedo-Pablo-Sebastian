@@ -1,0 +1,23 @@
+.curriculum{
+    background-color: var(--3-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: var(--padding);
+    
+}
+.curriculum__texto{
+    margin: auto 0;
+}
+
+.curriculum__btn{
+    background-color: var(--btn-color-backg);
+    color: var(--btn-color-font);
+    font-size: 1.1rem;
+    width: 10rem;
+}
+@media only screen and (max-width: 425px){
+    .curriculum__texto{
+        width: 10rem;
+    }
+}
