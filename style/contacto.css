@@ -5,6 +5,7 @@
     justify-content: space-around;
     padding: var(--padding);
     padding: 1rem auto;
+    color: var(--color-letras);
 }
 .contacto__imagen{
     margin: 1rem;

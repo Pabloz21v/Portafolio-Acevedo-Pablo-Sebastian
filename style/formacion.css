@@ -1,6 +1,7 @@
 .formacion{
     background-color: var(--2-color);
     padding: var(--padding);
+    
 }
 
 .formacion_titulo{
@@ -8,6 +9,7 @@
     display: flex;
     justify-content: center;
     padding: 1rem;
+    color: var(--color-letras);
 }
 
 .formacion_lista{
@@ -19,8 +21,8 @@
     gap: 1rem;
 }
 .formacion_items{
-    background-color: white;
-    padding: 1rem;
+    background-color: #b0e082;
+    /* padding: 1rem; */
     width: 10rem;
 }
 .formacion__marco_de_img{
@@ -28,12 +30,14 @@
     height: 10rem;
     display: flex;
     align-items: center;
+  
 }
 
 .formacion_img{
     margin: auto;
     display: flex;
-    width: 10rem;
+    align-items: center;
+    width: 8rem;
 }
 
 .formacion_items>h3, .formacion_items>p{
@@ -50,10 +54,10 @@
 
 @media only screen and (max-width: 425px){
     .formacion_items{ 
-        width: 67vw;
+        width: 60vw;
     }
     .formacion__marco_de_img{
-        width: 67vw; 
+        width: 60vw; 
     }
     
 }

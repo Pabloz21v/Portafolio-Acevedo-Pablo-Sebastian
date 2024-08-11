@@ -1,57 +1,67 @@
-.intro{
-    background-color: var(--3-color);
-    display: flex;
-    flex-direction: row;
-    padding: var(--padding);
-    justify-content: space-between;
- }
-.intro__textos{
-   margin: auto 0;
-   width: 90vw;
+.intro {
+  background-color: var(--3-color);
+  color: var(--5-color);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding);
+  justify-content: space-between;
 }
- .intro__titulo{
-    font-size: var(--titulo);
-    margin: 0.5rem 0;
- }
- .intro__presentacion{
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
- }
- .intro__elementos{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
- }
- .intro__items{
-    margin: 0.5rem 0.5rem 1rem;
- }
- 
- .intro__foto_img{
-   width: 32vw;
-   margin: 1rem 0;
- }
+.intro__textos {
+  margin: auto 0;
+  width: 90vw;
+}
+.intro__titulo {
+  font-size: var(--titulo);
+  margin: 0.5rem 0;
+}
+.intro__presentacion {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+.intro__elementos {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.intro__items {
+  margin: 0.5rem 0.5rem 1rem;
+  
+}
+.intro_link{
+  color: var(--5-color);
+}
 
-@media only screen and (max-width: 768px){
-   .intro__foto_img{
-      width: 8.1rem;
-   }
-   .intro__titulo{
-      font-size: 1.22rem;
-   }
-   .intro__presentacion{
-      font-size: 0.88rem;
-      line-height: 1.2rem;
-   }
-   .intro__items{
-      margin: 0.5rem 0.5rem 1rem;
-   }
+.intro__foto_img {
+  width: 32vw;
+  margin: 1rem 0;
+  
 }
-@media only screen and (max-width: 454px){
-   .intro{
-      flex-direction: column-reverse;
-   }
-   .intro__foto_img{
-      width: 5.4rem;
-   }
-   
+
+@media only screen and (max-width: 768px) {
+  .intro__foto_img {
+    width: 8.1rem;
+  }
+  .intro__titulo {
+    font-size: 1.22rem;
+  }
+  .intro__presentacion {
+    font-size: 0.88rem;
+    line-height: 1.2rem;
+  }
+  .intro__items {
+    margin: 0.5rem 0.5rem 1rem;
+  }
+}
+@media only screen and (max-width: 454px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+  .intro__foto_img {
+    width: 5.4rem;
+  }
+  .intro__elementos {
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+  }
 }

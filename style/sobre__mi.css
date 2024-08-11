@@ -2,6 +2,7 @@
     background-color: var(--2-color);
     padding: var(--padding);
     line-height: 1.2rem;
+    color: var(--color-letras);
 }
 .sobre_mi__titulo{
     font-size: var(--titulo);
