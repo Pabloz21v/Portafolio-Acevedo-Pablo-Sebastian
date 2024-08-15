@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
           );
 
           modalTitle.textContent = `Proyectos con ${tech}`;
-          // modalImg.textContent = `Proyectos con ${tech}`;
           projectsList.innerHTML = proyectosFiltrados.length > 0
             ? proyectosFiltrados.map(proyecto => `
                 <li  >
@@ -46,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
                             </ul>
                             
                           </div>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
                     </div>
@@ -82,3 +80,5 @@ document.addEventListener('DOMContentLoaded', function () {
 //                                 <p class="card-text"><a href="${proyecto.link_youtube_eng}" target="_blank">Ver Video (Inglés)</a></p>
 //                               </li>
 //                             </ul>
+
+{/* <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p> */ }
