@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="style/contacto.css" />
     <link rel="stylesheet" href="style/curriculum.css" />
     <link rel="stylesheet" href="style/rodapie.css" />
+    <link rel="stylesheet" media="all" href="style/buttonStyle.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -165,17 +166,16 @@
             <div class="intro" id="intro">
               <div class="intro__textos">
                 <h3 class="intro__titulo">
-                  Hola mi nombre es Pablo Sebastian Acevedo, Argentino de 34
-                  años y soy Desarrollador Full Stack.
+                  Hola! soy Pablo Sebastian Acevedo, Argentino, tengo 35
+                  años, soy Lic. en Tecnología de los Alimentos y Desarrollador Web Full Stack.
                 </h3>
                 <h4 class="intro__presentacion">
-                  Actualmente estoy trabajando como free lancer, en un proyecto
-                  usando Laravel-Livewire
+                  Actualmente estoy trabajando como free lancer, trabajado principalmente con Laravel y Vue
                 </h4>
                 <ul class="intro__elementos">
                   <li class="intro__items">
                     <a
-                      class="link-success link-offset-1 link-underline-opacity-100 link-underline-opacity-100-hover"
+                      class=""
                       target="_blank"
                       href="https://www.linkedin.com/in/acevedo-pablo/"
                       >Linkedin
@@ -184,23 +184,23 @@
                   </li>
                   <li class="intro__items">
                     <a
-                      class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                      class=""
                       target="_blank"
                       href="https://github.com/Pabloz21v"
                       >Github
                       <img src="img/flecha.png" alt="img en forma de flecha"
                     /></a>
                   </li>
-                  <li class="intro__items">
+                  <!-- <li class="intro__items">
                     <a
-                      class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                      class=""
                       target="_blank"
                       href="pdf/CV Pablo Acevedo.pdf"
                       >Curriculum<img
                         src="img/flecha.png"
                         alt="img en forma de flecha"
                     /></a>
-                  </li>
+                  </li> -->
                 </ul>
               </div>
               <div class="intro__foto_perfil">
@@ -211,6 +211,7 @@
                 />
               </div>
             </div>
+            
           </div>
           <div class="carousel-item">
             <div class="sobre_mi d-block w-100" id="sobre_mi">
@@ -218,16 +219,13 @@
               <p class="sobre_mi__texto">
                 Soy Lic. en Tecnología de los Alimentos y actualmente me
                 encuentro en un cambio de rumbo profesional hacia la
-                programación, tema que siempre me gustó. Logré ser participante
-                del proyecto Oracle ONE en Alura Latam donde aprendí diferentes
-                lenguajes de programación (JavaScript, Java, Python), como
-                también la elaboración de proyectos (challenge) propuestos por
-                ellos, en paralelo fui estudiando algunos framework de los
+                programación, tema que siempre me gustó. Empecé mis estudios en Alura,
+                proyecto Oracle ONE en Alura Latam donde aprendí diferentes
+                lenguajes de programación (JavaScript, Java, Python), en 
+                paralelo fui estudiando algunos framework de los
                 lenguajes que me iban enseñando (React, Spring y Django), a su
-                vez por hobbie estudio diferentes idiomas y amplio mis
-                conocimientos de programación gracias a las enseñanzas de Oracle
-                One / Alura. Todo con el fin de ser un desarrollador web full
-                stack. Actualmente trabajo de FreeLancer en un proyecto con base
+                vez estudio diferentes idiomas de hobbie.
+                Actualmente trabajo de FreeLancer en un proyecto con base
                 en Laravel, Livewire y Vue tecnologías que no había estudiado,
                 pero gracias al ver tantos lenguajes y framework me logre
                 adaptar rápidamente a lo requerido para poder desempeñar mi
@@ -242,43 +240,46 @@
                 <li class="proyects_items">
                   <button
                     type="button"
-                    data-tech="Html 5"
+                    data-tech="HTML"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
                       src="img/icons8-html-5-48.png"
-                      alt="logo html 5"
-                    />Html 5
+                      alt="logo HTML"
+                    />HTML
                   </button>
                 </li>
                 <li class="proyects_items">
                   <button
                     type="button"
-                    data-tech="CSS 3"
+                    data-tech="CSS"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
                       src="img/icons8-css3-48.png"
                       alt="logo css 3"
-                    />CSS 3
+                    />CSS
                   </button>
                 </li>
                 <li class="proyects_items">
                   <button
                     type="button"
-                    data-tech="Javascript"
+                    data-tech="JavaScript"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
                       src="img/icons8-javascript-48.png"
-                      alt="logo Javascript"
-                    />Javascript
+                      alt="logo JavaScript"
+                    />JavaScript
                   </button>
                 </li>
                 <li class="proyects_items">
@@ -287,6 +288,7 @@
                     data-tech="React"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -301,6 +303,7 @@
                     data-tech="Vue"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -328,6 +331,7 @@
                     data-tech="MySQL"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -342,6 +346,7 @@
                     data-tech="Java"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -356,6 +361,7 @@
                     data-tech="Spring"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -384,6 +390,7 @@
                     data-tech="PHP"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -398,6 +405,7 @@
                     data-tech="Laravel"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -412,6 +420,7 @@
                     data-tech="Livewire"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -426,6 +435,7 @@
                     data-tech="Bootstrap"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -440,6 +450,7 @@
                     data-tech="Tailwind CSS"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -454,6 +465,7 @@
                     data-tech="Inertia"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -468,6 +480,7 @@
                     data-tech="Flowbite"
                     data-bs-toggle="modal"
                     data-bs-target="#techModal"
+                    class="pulse"
                   >
                     <img
                       class="skills_and_hobbies__img"
@@ -786,18 +799,18 @@
     </main>
 
     <!-- Modal -->
-    <div
-      class="modal fade"
+    <div data-bs-theme="dark"
+      class="modal fade "
       id="techModal"
       tabindex="-1"
       aria-labelledby="techModalLabel"
       aria-hidden="true"
       data-bs-backdrop="boolean"
     >
-      <div class="modal-dialog modal-lg">
+      <div class="modal-dialog modal-lg ">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="techModalLabel">Modal title</h1>
+            <h1 class="modal-title fs-5 proyects_titulos_modal" id="techModalLabel">Modal title</h1>
             <button
               type="button"
               class="btn-close"
@@ -805,7 +818,7 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body ">
             <ul id="projectsList" style="padding: 0%"></ul>
           </div>
           <div class="modal-footer">

@@ -24,8 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
           // modalImg.textContent = `Proyectos con ${tech}`;
           projectsList.innerHTML = proyectosFiltrados.length > 0
             ? proyectosFiltrados.map(proyecto => `
-                <li>
-                  <div class="card mb-3">
+                <li  >
+                  <div class="card mb-3 ">
                     <div class="row g-0">
                       <div class="col-md-4 my-auto d-flex justify-content-center" >
                         <img src="${proyecto.imagen}" alt="${proyecto.nombre}" class="img-fluid">
@@ -44,14 +44,7 @@ document.addEventListener('DOMContentLoaded', function () {
                                 <p class="card-text"><a href="${proyecto.link_page}" target="_blank">Ver Proyecto</a></p>
                               </li>
                             </ul>
-                            <ul class="list-group">
-                              <li class="list-group-item">
-                                <p class="card-text"><a href="${proyecto.link_youtube_esp}" target="_blank">Ver Video (Español)</a></p>
-                              </li>
-                              <li class="list-group-item">
-                                <p class="card-text"><a href="${proyecto.link_youtube_eng}" target="_blank">Ver Video (Inglés)</a></p>
-                              </li>
-                            </ul>
+                            
                           </div>
                           <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                         </div>
@@ -81,3 +74,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
+// <ul class="list-group">
+//                               <li class="list-group-item">
+//                                 <p class="card-text"><a href="${proyecto.link_youtube_esp}" target="_blank">Ver Video (Español)</a></p>
+//                               </li>
+//                               <li class="list-group-item">
+//                                 <p class="card-text"><a href="${proyecto.link_youtube_eng}" target="_blank">Ver Video (Inglés)</a></p>
+//                               </li>
+//                             </ul>

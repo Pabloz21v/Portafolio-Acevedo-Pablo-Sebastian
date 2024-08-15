@@ -2,23 +2,23 @@
     "proyectos": [
         {
         "nombre": "Sistema de Gestión de Menús",
-        "tecnologias": ["Laravel", "Vue", "Inertia"],
-        "descripcion": "Sistema de Gestión de Menús",
-        "link_youtube_esp": "https://www.youtube.com/watch?v=esp_link",
-        "link_youtube_eng": "https://www.youtube.com/watch?v=eng_link",
-        "link_github": "https://github.com/tu_usuario/sistema-gestion-menus",
-        "link_page": "https://tu_usuario.github.io/sistema-gestion-menus",
-        "imagen": "./img/alura.png"
+        "tecnologias": ["Laravel", "Vue","PHP", "Inertia", "Tailwind CSS", "HTML","CSS"],
+        "descripcion": "Crea un menú de restaurante el cual es gestionado por el panel de administración, con dos roles, Admin (dueño) y editor (empleados) desde empleados pueden gestionar el menú, desde Admin lo mismo que editor más un historial, agregar editores(empleados) y sistema de backup. <br>Login Admin: Email: admin@admin.com    Password: admin <br>Login Editor: Email: editor@editor.com    Password: editor",
+        "link_youtube_esp": "",
+        "link_youtube_eng": "",
+        "link_github": "https://github.com/Pabloz21v/menu-restaurant-proyect",
+        "link_page": "https://menu.wanacom.com.ar/dashboard",
+        "imagen": "./img/menu.png"
         },
         {
-        "nombre": "E-commerce con Inertia.js",
-        "tecnologias": ["Laravel", "Vue", "Inertia", "Tailwind CSS"],
-        "descripcion": "Sistema de Gestión de Menús",
-        "link_youtube_esp": "https://www.youtube.com/watch?v=esp_link_ecommerce",
-        "link_youtube_eng": "https://www.youtube.com/watch?v=eng_link_ecommerce",
-        "link_github": "https://github.com/tu_usuario/ecommerce-inertia",
-        "link_page": "https://tu_usuario.github.io/ecommerce-inertia",
-        "imagen": "https://tu_servidor.com/imagenes/ecommerce-inertia.png"
+        "nombre": "Portafolio",
+        "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        "descripcion": "Page de mis proyectos",
+        "link_youtube_esp": "",
+        "link_youtube_eng": "",
+        "link_github": "https://github.com/Pabloz21v/Portafolio-PAS",
+        "link_page": "https://pabloz21v.github.io/Portafolio-PAS/",
+        "imagen": "./img/portafolio.png"
         }
        
     ]
