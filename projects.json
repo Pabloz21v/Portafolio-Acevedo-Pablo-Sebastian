@@ -11,6 +11,16 @@
         "imagen": "./img/menu.png"
         },
         {
+        "nombre": "Carta presentacion de restaurante",
+        "tecnologias": ["HTML", "CSS", "Bootstrap"],
+        "descripcion": "Modelo de pagina estatica como carta de presentación de un restaurante",
+        "link_youtube_esp": "",
+        "link_youtube_eng": "",
+        "link_github": "https://github.com/Pabloz21v/AllViews",
+        "link_page": "https://pabloz21v.github.io/AllViews/",
+        "imagen": "./img/AllViews.png"
+        },
+        {
         "nombre": "Portafolio",
         "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap"],
         "descripcion": "Page de mis proyectos",
