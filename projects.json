@@ -1,7 +1,7 @@
 {
     "proyectos": [
         {
-        "nombre": "Sistema de Gestión de Menús",
+        "nombre": "Sistema de Gestión de Menús ",
         "tecnologias": ["Laravel", "Vue","PHP", "Inertia", "Tailwind CSS", "HTML","CSS"],
         "descripcion": "Crea un menú de restaurante el cual es gestionado por el panel de administración, con dos roles, Admin (dueño) y editor (empleados) desde empleados pueden gestionar el menú, desde Admin lo mismo que editor más un historial, agregar editores(empleados) y sistema de backup. <br>Login Admin: Email: admin@admin.com    Password: admin <br>Login Editor: Email: editor@editor.com    Password: editor",
         "link_youtube_esp": "",
@@ -28,6 +28,26 @@
         "link_youtube_eng": "",
         "link_github": "https://github.com/Pabloz21v/Portafolio-PAS",
         "link_page": "https://pabloz21v.github.io/Portafolio-PAS/",
+        "imagen": "./img/portafolio.png"
+        },
+        {
+        "nombre": "Ecommerce Front JavaScript",
+        "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        "descripcion": "Ecommerce que consume la API de Mercado Libre",
+        "link_youtube_esp": "",
+        "link_youtube_eng": "",
+        "link_github": "https://github.com/Pabloz21v/Ecommerce-js-java",
+        "link_page": "https://pabloz21v.github.io/Ecommerce-js-java/",
+        "imagen": "./img/portafolio.png"
+        },
+        {
+        "nombre": "Ecommerce Fullstack JavaScript / Java",
+        "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java"],
+        "descripcion": "Ecommerce que consume la API de Mercado Libre",
+        "link_youtube_esp": "",
+        "link_youtube_eng": "",
+        "link_github": "https://github.com/Pabloz21v/TP-FINAL",
+        "link_page": "",
         "imagen": "./img/portafolio.png"
         }
        
