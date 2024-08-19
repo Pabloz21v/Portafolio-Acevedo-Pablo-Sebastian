@@ -29,27 +29,9 @@
         "link_github": "https://github.com/Pabloz21v/Portafolio-PAS",
         "link_page": "https://pabloz21v.github.io/Portafolio-PAS/",
         "imagen": "./img/portafolio.png"
-        },
-        {
-        "nombre": "Ecommerce Front JavaScript",
-        "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap"],
-        "descripcion": "Ecommerce que consume la API de Mercado Libre",
-        "link_youtube_esp": "",
-        "link_youtube_eng": "",
-        "link_github": "https://github.com/Pabloz21v/Ecommerce-js-java",
-        "link_page": "https://pabloz21v.github.io/Ecommerce-js-java/",
-        "imagen": "./img/portafolio.png"
-        },
-        {
-        "nombre": "Ecommerce Fullstack JavaScript / Java",
-        "tecnologias": ["HTML", "CSS", "JavaScript", "Bootstrap", "Java"],
-        "descripcion": "Ecommerce que consume la API de Mercado Libre",
-        "link_youtube_esp": "",
-        "link_youtube_eng": "",
-        "link_github": "https://github.com/Pabloz21v/TP-FINAL",
-        "link_page": "",
-        "imagen": "./img/portafolio.png"
         }
        
     ]
 }
+
+
